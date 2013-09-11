@@ -1,0 +1,37 @@
+{
+  "name": "quick-normal-map",
+  "version": "0.0.0",
+  "description": "Quickly generates a normal map based on a 2D heightmap",
+  "main": "index.js",
+  "dependencies": {
+    "cwise": "~0.4.0",
+    "isndarray": "~0.1.0"
+  },
+  "devDependencies": {
+    "get-pixels": "~1.0.1",
+    "ndarray-canvas": "~0.0.0",
+    "ndarray-fill": "~0.1.0",
+    "zeros": "~0.0.0",
+    "beefy": "~0.4.1",
+    "browserify": "~2.29.1"
+  },
+  "scripts": {
+    "start": "beefy demo.js:bundle.js",
+    "prepublish": "browserify demo.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/quick-normal-map.git"
+  },
+  "keywords": [
+    "ndarray",
+    "heightmap",
+    "normal",
+    "map",
+    "direction",
+    "image"
+  ],
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
